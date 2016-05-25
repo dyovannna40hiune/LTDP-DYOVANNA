@@ -1,48 +1,42 @@
 <html>
 	<head>
 		<meta charset="utf-8"> </meta>
-		<title>Projeto-Feira</title> 
+		<title>Projeto-Feira</title>
+		<link href="bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet" />
+		<script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+		<link href="style.css" rel="stylesheet">
 	</head> 
 	<body>
-		<center>Formulario de Inscrição</center> <br><br>
-		<form>
-	<INPUT TYPE="text"placeholder="Nome:" SIZE="40" MAXLENGTH="60" NAME="empresa"><br><br> 
-	<INPUT TYPE="text" placeholder="Idade:" SIZE="20" MAXLENGTH="60" NAME="empresa"><br><br>
-
-	<INPUT TYPE="text"placeholder="Turma:"  SIZE="30" MAXLENGTH="60" NAME="empresa"><br><br>
- 
-	<INPUT TYPE="text" placeholder="Turno:" SIZE="20" MAXLENGTH="60" NAME="empresa"><br><br>
-  
-	<INPUT TYPE="text"placeholder="Email:" SIZE="40" MAXLENGTH="60" NAME="empresa"><br><br>
-	
-	CENTRO DE INTERESSE 1
-			<SELECT ID="centrodeinsteresse1"   style="width: 541px">
-				<OPTION VALUE="musica">Música </option>
-				<OPTION VALUE="teatro">Teatro </option>
-				<OPTION VALUE="espanhol">Espanhol </option>
-				<OPTION VALUE="ingles">Inglês </option>
-				<OPTION VALUE="Dança">Dança </option>
-				<OPTION VALUE="futsal">Futsal </option>
-				<OPTION VALUE="nenhuma das alternativas">Nenhuma das alternativas </option>
-			</SELECT><br>
-			CENTRO DE INTERESSE 2
-			<SELECT ID="centrodeinsteresse2"style="width: 541px">
-				<OPTION VALUE="musica">Música </option>
-				<OPTION VALUE="teatro">Teatro </option>
-				<OPTION VALUE="espanhol">Espanhol </option>
-				<OPTION VALUE="ingles">Inglês </option>
-				<OPTION VALUE="Dança">Dança </option>
-				<OPTION VALUE="futsal">Futsal </option>
-				<OPTION VALUE="nenhuma das alternativas">Nenhuma das alternativas </option>
-			</SELECT><br><br>
-	<INPUT TYPE="checkbox" NAME="TERMO DE DECLARAÇÃO" VALUE="IE3">Declaro estar ciente, que nao poderei trocar de centro de interesse durante o semestre.<br><br>
-	
-	<INPUT TYPE="submit" VALUE="Enviar"><INPUT TYPE="reset" VALUE="Limpar">
-	
-
- 
-<form>
-
-</head>
-
-</html>
+		<div id ="container">
+			<h1>Formulario De Inscrição</h1> <br><br>
+			<form>
+					<INPUT TYPE="text"placeholder="Nome:" SIZE="40" MAXLENGTH="60" NAME="empresa">
+					<INPUT TYPE="text" placeholder="Idade:"SIZE="40" MAXLENGTH="60" NAME="empresa"><br>
+					<INPUT TYPE="text"placeholder="Turma:"  SIZE="40" MAXLENGTH="60" NAME="empresa">
+					<INPUT TYPE="text" placeholder="Turno:" SIZE="40" MAXLENGTH="60" NAME="empresa"><br>
+					<INPUT TYPE="text"placeholder="Email:" SIZE="85" MAXLENGTH="60" NAME="empresa">
+	                <h2>CENTRO DE INTERESSE 1</h2>
+					<SELECT ID="centrodeinsteresse1" 541px">
+								<OPTION VALUE="musica">Música </option>
+								<OPTION VALUE="teatro">Teatro </option>
+								<OPTION VALUE="espanhol">Espanhol </option>
+								<OPTION VALUE="ingles">Inglês </option>
+								<OPTION VALUE="Dança">Dança </option>
+								<OPTION VALUE="futsal">Futsal </option>
+								<OPTION VALUE="nenhuma das alternativas">Nenhuma das alternativas </option>
+								</SELECT><br>
+					    <h2>CENTRO DE INTERESSE 2</h2>
+						<SELECT ID="centrodeinsteresse2" 541px">
+								<OPTION VALUE="musica">Música </option>
+								<OPTION VALUE="teatro">Teatro </option>
+								<OPTION VALUE="espanhol">Espanhol </option>
+								<OPTION VALUE="ingles">Inglês </option>
+								<OPTION VALUE="Dança">Dança </option>
+								<OPTION VALUE="futsal">Futsal </option>
+								<OPTION VALUE="nenhuma das alternativas">Nenhuma das alternativas </option>
+								</SELECT><br><br>
+								<div  class = "btn-grupo" >
+				<h2><INPUT TYPE="checkbox" NAME="TERMO DE DECLARAÇÃO" VALUE="IE3">Declaro estar ciente, que não poderei trocar de centro de interesse durante o semestre.<br><br></h2>
+				<button  class = "btn btn-danger" > CANCELAR </button>
+				<button  class = "btn btn-success" > CONFIRMAR </button>
+</div>
