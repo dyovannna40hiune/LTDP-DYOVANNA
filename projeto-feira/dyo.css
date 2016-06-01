@@ -1,6 +1,6 @@
 
 #container{
-	background-color: rgb(134,224,140);
+	background-color:opx;
 	width: 80%;
 	height: 100%;
 	margin: 0px auto 0px auto;
@@ -12,7 +12,7 @@ nome {
 	border-width: 0px;
 	width: 92%;
 }
-CódigodoAluno {
+CodigodoAluno {
 	border-width: 0px;
 	width: 27%;
 }
@@ -39,4 +39,10 @@ h2 {
 	color: black;
 	font-family: "arial";
 	font-size: 13px;
+}
+
+input#campo-nome{
+	width: 50px;
+	margin-left: 50px;
+	
 }
