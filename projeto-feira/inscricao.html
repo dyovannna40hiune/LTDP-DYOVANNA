@@ -12,11 +12,11 @@
 		<br> <br>
 		<form>
 			<div class="form-group">
-				<label for="campo-nome">Nome:</label> <input type="text"
+				<label for="campo-nome">codigo do aluno:</label> <input type="text"
 					class="form-control" id="campo-nome" />
 			</div>
 			<div class="form-group">
-				<label for="campo-idade">idade:</label> <input type="text"
+				<label for="campo-idade">nome:</label> <input type="text"
 					class="form-control" id="campo-idade" />
 			</div>
 			<div class="form-group">
@@ -28,37 +28,48 @@
 					class="form-control" id="txt_name" />
 			</div>
 			<div class="form-group">
-				<label for="txt_name">email:</label> <input type="text"
-					class="form-control" id="txt_name" />
+				<label for="txt_email">email:</label> <input type="text"
+					class="form-control" id="txt_email" /><br>
 			</div>
-			<h2>CENTRO DE INTERESSE 1</h2>
-			<SELECT ID="centrodeinsteresse1">
-				<OPTION VALUE="musica">Música</option>
-				<OPTION VALUE="teatro">Teatro</option>
-				<OPTION VALUE="espanhol">Espanhol</option>
-				<OPTION VALUE="ingles">Inglês</option>
-				<OPTION VALUE="Dança">Dança</option>
-				<OPTION VALUE="futsal">Futsal</option>
-				<OPTION VALUE="nenhuma das alternativas">Nenhuma das
-					alternativas</option>
-			</SELECT><br>
-			<h2>CENTRO DE INTERESSE 2</h2>
-			<SELECT ID="centrodeinsteresse2">
-				<OPTION VALUE="musica">Música</option>
-				<OPTION VALUE="teatro">Teatro</option>
-				<OPTION VALUE="espanhol">Espanhol</option>
-				<OPTION VALUE="ingles">Inglês</option>
-				<OPTION VALUE="Dança">Dança</option>
-				<OPTION VALUE="futsal">Futsal</option>
-				<OPTION VALUE="nenhuma das alternativas">Nenhuma das
-					alternativas</option>
-			</SELECT><br> <br>
-			<div class="btn-grupo">
-				<h2>
-					<INPUT TYPE="checkbox" NAME="TERMO DE DECLARAÇÃO" VALUE="IE3">Declaro
-					estar ciente, que não poderei trocar de centro de interesse durante
-					o semestre.<br> <br>
-				</h2>
+			<div class="form-group">
+				<span class="glyphicon glyphicon-pencil"></span> <label
+					for="slct_op1">Opção 1:</label>
+				 <select id="slct_op1"
+					class="form-control">
+					<OPTION VALUE="musica">Música</option>
+					<OPTION VALUE="teatro">Teatro</option>
+					<OPTION VALUE="espanhol">Espanhol</option>
+					<OPTION VALUE="ingles">Inglês</option>
+					<OPTION VALUE="Dança">Dança</option>
+					<OPTION VALUE="futsal">Futsal</option>
+					<OPTION VALUE="nenhuma das alternativas">Nenhuma das
+						alternativas</option>
+				</SELECT><br>
+			</div>
+			<div class="form-group">
+				<span class="glyphicon glyphicon-pencil"></span> 
+				<label for="slct_op1">Opção 2:</label> 
+				<select id="slct_op1" class="form-control">
+					<OPTION VALUE="musica">Música</option>
+					<OPTION VALUE="teatro">Teatro</option>
+					<OPTION VALUE="espanhol">Espanhol</option>
+					<OPTION VALUE="ingles">Inglês</option>
+					<OPTION VALUE="Dança">Dança</option>
+					<OPTION VALUE="futsal">Futsal</option>
+					<OPTION VALUE="nenhuma das alternativas">Nenhuma das
+						alternativas</option>
+				</select>
+			</div>
+			<br> <br>
+			<div class="form-group">
+				
+				<INPUT TYPE="checkbox" NAME="TERMO DE DECLARAÇÃO" id="checkbox-declaro">
+				<label for="checkbox-declaro">
+					Declaro	estar ciente, que não poderei trocar de centro de interesse durante
+					o semestre.
+				</label> 
+			</div>
+			<div class="form-group">
 				<button class="btn btn-danger">CANCELAR</button>
 				<button class="btn btn-success">CONFIRMAR</button>
 			</div>
