@@ -1,22 +1,29 @@
 <html>
-	<head>
-		<meta charset="utf-8"> </meta>
-		<title>Projeto-Feira</title>
-		<link href="style.css" rel="stylesheet">
-	</head> 
-	<body>
-		<div id ="container">
+<head>
+<meta charset="utf-8" />
+<title>Projeto-Feira</title>
+<link href="bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet" />
+<script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+<link href="dyo.css" rel="stylesheet">
+</head>
+<body>
 			<h1>Alteração de C.I</h1> <br><br>
 			<form>
 					Nome
-					<SELECT ID="nome"   style="width: 530px">
-								<OPTION VALUE="musica">Música </option>
-								<OPTION VALUE="teatro">Teatro </option>
-								<OPTION VALUE="espanhol">Espanhol </option>
-								<OPTION VALUE="ingles">Inglês </option>
-								<OPTION VALUE="Dança">Dança </option>
-								<OPTION VALUE="futsal">Futsal </option>
-								</SELECT><br><br>
+				<div class="form-group">
+				<span class="glyphicon glyphicon-pencil"></span> 
+				<label for="slct_op2">Opção 2:</label> 
+				<select id="slct_op2" class="form-control">
+					<OPTION VALUE="musica">Música</option>
+					<OPTION VALUE="teatro">Teatro</option>
+					<OPTION VALUE="espanhol">Espanhol</option>
+					<OPTION VALUE="ingles">Inglês</option>
+					<OPTION VALUE="Dança">Dança</option>
+					<OPTION VALUE="futsal">Futsal</option>
+					<OPTION VALUE="nenhuma das alternativas">Nenhuma das
+						alternativas</option>
+				</select>
+			</div>
 					Descrição<br>
 						<INPUT TYPE="text" placeholder="insira.."60" SIZE="50" NAME="Descrição"/><br>
 					Editar orientador<br>
@@ -32,6 +39,9 @@
 					Data de Terminio
 						<INPUT TYPE="date" /><br><br>
 					
-					<INPUT TYPE="submit" VALUE="Cancelar"><INPUT TYPE="reset" VALUE="Confirmar">
+				<div class="form-group">
+				<button  class="btn btn-danger">CANCELAR</button>
+				<button class="btn btn-success">CONFIRMAR</button>
+			</div>
 		</form></font>
 </div>

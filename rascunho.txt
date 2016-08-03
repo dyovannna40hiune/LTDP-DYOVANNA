@@ -1,0 +1,81 @@
+<html>
+	<head>
+		<meta charset="utf-8"> </meta>
+		<title>Projeto-Feira</title>
+		
+		<style>
+			#container{
+			background-color: red;
+			width: 80%;
+			height: 100%;
+			margin: 0px auto 0px auto;
+			border-color: black;
+			border-style: solid;
+			border-width: 1px;
+			}
+			#nome {
+				border-width: 0px;
+				width: 92%;
+			}
+			#CódigodoAluno {
+				border-width: 0px;
+				width: 27%;
+			}
+			#E-mail {
+				border-width: 0px;
+				width: 70%;
+			}
+			body {
+				background-color: MidnightBlue;
+			}
+
+			h1 {
+				color: black;
+				font-family: "Bradley Hand ITC";
+				font-size: 50px;
+				text-align: center;
+			}
+			input::-webkit-input-placeholder{
+				color: black;
+				font-family: "arial";
+				font-size: 13px;
+			}
+			h2 {
+				color: black;
+				font-family: "Bradley Hand ITC";
+				font-size: 15px;
+			}
+			
+			
+		</style>
+	</head> 
+	<body>
+		<div id ="container">
+			<h1>Cadastro do Centro de Interesse</h1> <br><br>
+			<form>
+			Nome
+				<SELECT ID="Insira..."   style="width: 700px">
+					<OPTION VALUE="musica">Música </option>
+					<OPTION VALUE="teatro">Teatro </option>
+					<OPTION VALUE="espanhol">Espanhol </option>
+					<OPTION VALUE="ingles">Inglês </option>
+					<OPTION VALUE="Dança">Dança </option>
+					<OPTION VALUE="futsal">Futsal </option>
+					</option>
+				</SELECT><br><br>	
+				Descrição
+				<INPUT TYPE="text" placeholder=insira... SIZE="90" MAXLENGTH="60" id="descrição"><br><br>
+				horariodeInicio
+				<INPUT TYPE="text" placeholder=Insira... SIZE="90" MAXLENGTH="60" id=<form><br><br>
+				Data de Início
+				<INPUT TYPE="date" /><br><br>
+				Data de Terminio
+				<INPUT TYPE="date" /><br><br>
+				<INPUT TYPE="text" placeholder=Orientador SIZE="100" MAXLENGTH="60" id="Orientador"><br><br>
+				<INPUT TYPE="text" placeholder=QuantidadedeVagas SIZE="100" MAXLENGTH="60" id="Quantidade de vagas"><br><br>
+				<h2><INPUT TYPE="checkbox" NAME="TERMO DE DECLARAÇÃO" VALUE="IE3">Declaro estar ciente, que não poderei trocar de centro de interesse durante o semestre.<br><br></h2>
+				<INPUT TYPE="submit" VALUE="CONFIRMAR"><INPUT TYPE="reset" VALUE="CANCELAR">
+			</form></font>
+		</div>
+	</body> 
+</html>

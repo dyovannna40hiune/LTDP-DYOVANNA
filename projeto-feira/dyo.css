@@ -43,7 +43,7 @@ h2 {
 input#campo-nome{
 	text-align:center; 
 	width: 650px;
-	margin-left: 100px; 
+	margin: 0 auto;
 	
 }
 .form-group{
@@ -53,13 +53,29 @@ input#campo-nome{
 input#campo-idade{
 	text-align:center; 
 	width: 650px;
-	margin-left: 100px;
+	margin: 0 auto;
 	
 }
 input#txt_name{
 	text-align:center; 
 	width: 650px;
-	margin-left: 100px;
+	margin: 0 auto;
 	
 }
-
+input#txt_email{
+	text-align:center; 
+	width: 650px;
+	margin: 0 auto;
+}
+select#slct_op1{
+	text-align:center; 
+	width: 650px;
+	margin: 0 auto;
+}
+select#slct_op2{
+	text-align:center; 
+	width: 650px;
+	margin: 0 auto;
+	}
+	
+}

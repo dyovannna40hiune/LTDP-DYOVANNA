@@ -1,0 +1,8 @@
+Horario De Inicio
+						<INPUT TYPE="time" id "horario inicio"/>
+					Horario de termino     
+						<INPUT TYPE="time" id "horario inicio"/><br>
+					Data de Início
+						<INPUT TYPE="date" />
+					Data de Terminio
+						<INPUT TYPE="date" /><br><br>
