@@ -12,11 +12,11 @@
 	/*configuração de acesso do banco de dados*/
 	$nome_banco = "bd_centro_interesse";
 	
-	$conexão = mysql_connect($servidor, $usuario, $senha);
+	$conexao = mysql_connect($servidor, $usuario, $senha);
 	
-	$banco = mysql_select_db($nome_banco, $conexão);
+	$banco = mysql_select_db($nome_banco, $conexao);
 	
-	if (!$conn) {echo "Não foi possível conectar ao banco MySQL.
+	if (!$conexao) {echo "Não foi possível conectar ao banco MySQL.
 "; exit;}
 	else {echo "Parabéns!! A conexão ao banco de dados ocorreu normalmente!.
 ";}
