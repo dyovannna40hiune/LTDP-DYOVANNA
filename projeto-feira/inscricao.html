@@ -12,35 +12,25 @@
 		<br> <br>
 		<form id="formulario" action="salvarinscricao.php" role="form" method="POST">
 			<div class="form-group">
-			<span class="glyphicon glyphicon-barcode"></span> 
-				<label for="campo-nome">codigo do aluno:</label> <input type="text"
-					class="form-control" id="campo-nome" name="campocodigo"/>
-			</div>
-			<div class="form-group">
 			<span class="glyphicon glyphicon-user"></span> 
 				<label for="campo-nome">nome:</label> <input type="text"
 					class="form-control" id="campo-nome" name="camponome" />
 			</div>
 			<div class="form-group">
+			<span class="glyphicon glyphicon-barcode"></span> 
+				<label for="campo-nome">codigo do aluno:</label> <input type="text"
+					class="form-control" id="campo-nome" name="campocodigo"/>
+			</div>
+			<div class="form-group">
 			<span class="glyphicon glyphicon-education"></span> 
-				<label for="txt_name">descrição:</label> <input type="text"
-					class="form-control" id="txt_name" />
+				<label for="txt_name">turma:</label> <input type="text"
+					class="form-control" id="txt_name"name="campoturma"/>
 			</div>
-			<div class="form-group">
-			<span class="glyphicon glyphicon-time"></span> 
-				<label for="txt_name">turno:</label> <input type="text"
-					class="form-control" id="txt_name" />
-			</div>
-			<div class="form-group">
-			<span class="glyphicon glyphicon-envelope"></span> 
-				<label for="txt_email">email:</label> <input type="text"
-					class="form-control" id="txt_email" /><br>
-			</div>
+		
 			<div class="form-group">
 				<span class="glyphicon glyphicon-pencil"></span> <label
 					for="slct_op1">Opção 1:</label>
-				 <select id="slct_op1"
-					class="form-control">
+				 <select id="slct_op1" class="form-control" name="opcao1">
 					<OPTION VALUE="0">Música</option>
 					<OPTION VALUE="1">Teatro</option>
 					<OPTION VALUE="2">Espanhol</option>
@@ -54,7 +44,7 @@
 			<div class="form-group">
 				<span class="glyphicon glyphicon-pencil"></span> 
 				<label for="slct_op2">Opção 2:</label> 
-				<select id="slct_op2" class="form-control">
+				<select id="slct_op2" class="form-control" name="opcao2">
 					<OPTION VALUE="0">Música</option>
 					<OPTION VALUE="1">Teatro</option>
 					<OPTION VALUE="2">Espanhol</option>
