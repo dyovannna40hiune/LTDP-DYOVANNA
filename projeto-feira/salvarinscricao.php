@@ -22,8 +22,7 @@
 	/*se (nao conexao) entao, ou seja, conexao e falsa*/
 	
 	if (!$conexao) {
-		echo "Não foi possível connectar ao servidor".mysql_errno() .mysql_errno();
-		exit;
+		 die('Não foi possível conectar: ' . mysql_error());
 	}else{/*senao*/
 		 "<h1>Conectou</h1>";
 	}
